@@ -1,0 +1,15 @@
+{
+  "name": "esbuild-test",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "esbuild": "^0.8.5",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1"
+  },
+  "scripts": {
+    "build": "./node_modules/.bin/esbuild app.jsx --bundle --outfile=out.js --define:process.env.NODE_ENV='\"production\"'",
+    "html": "yarn build && node out.js > index.html"
+  }
+}
