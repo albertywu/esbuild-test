@@ -1,7 +1,7 @@
-# Install
+### Install
 
 `yarn`
 
-# Generate index.html
+### Generate index.html
 
 `yarn html`
