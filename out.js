@@ -1376,7 +1376,7 @@
     }
   });
 
-  // app.jsx
+  // index.jsx
   const React5 = __toModule(require_react());
   const Server = __toModule(require_server_browser());
 
@@ -1415,7 +1415,7 @@
     }));
   };
 
-  // app.jsx
+  // index.jsx
   const title = "hello world";
   const summary = "my summary here";
   const year = 2020;
